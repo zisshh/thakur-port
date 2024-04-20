@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Kanit:wght@100&family=Orbitron:wght@400;500;600;700;800;900&family=Rowdies:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Rowdies:wght@300;400;700&display=swap');
+
+
+:root{
+    --clr-0:#00E0FF;
+    --clr-1:#9400FF;
+    --clr-2:#27005D;
+    --clr-3:#AED2FF;
+    --clr-4:#E4F1FF;
+    --clr-5:#7dcfff;
+    --clr-6:#fdb8f8;
+    --clr-7:rgb(0, 213, 255);
+    --clr-8:#222831;
+    --clr-9:#393E46;
+    --clr-10:#00ADB5;
+    --clr-11:#EEEEEE;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    background-color: var(--clr-8);
+    color: #fff;
+    background-image: url('background/2.png');
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#title{
+    font-size: 35px;
+    padding-left: 5px;
+}
+.wrapper {
+    background-color: #00000075;
+    font-family: 'Rowdies';
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.nav-title{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+.nav-title-1{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-title-1::first-letter{
+    color: var(--clr-10);
+}
+.hh{
+    display: inline-flex;
+    color:var(--clr-0);
+}
+.navbar {
+    display: inline-flex;
+    display: flex;
+}
+#logo{
+    height: 25px;
+    width: 40px;
+    padding-right: 5px; 
+}
+
+
+li {
+    font-family: 'Orbitron';
+    font-weight: bolder;
+    padding-right: 10px;
+    list-style-type: none;
+    display: inline-flex;
+    position: relative;
+    right: 0;
+    
+}
+.nav-title:hover{
+    color: var(--clr-7);
+    text-decoration: dashed;
+}
+.nav-title-active{
+    padding: 5px;
+    border: 1px solid;
+    border-radius:5px ;
+    text-decoration: none;
+    color: #000;
+    background-color: var(--clr-0);
+    box-shadow: 0px 0px 20px var(--clr-0);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow .2s ease-in-out;
+}
+.nav-title-active:hover{
+    background-color: #000;
+    color: var(--clr-0);
+    box-shadow: none;
+}
+
+
+
+.web-list{
+    list-style-type: none;
+    border: 2px solid var(--clr-0);
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: box-shadow .2s ease-in-out;
+}
+.fa-brands,.fa-regular{
+    font-size: 30px;
+    padding: 5px;
+}
+.web-links{
+    position: relative;
+    margin-left: 130px;
+    margin-top: -75px;
+}
+.web-link-title{
+    font-size: 20px;
+    color: var(--clr-0);
+    text-decoration: none;
+}
+.web-list:hover{
+    box-shadow: 0px 0px 25px var(--clr-0);
+}
+
+.side{
+    display: inline-flex;
+}
+.start-content{
+    margin-top: 200px;
+    margin-left: 130px;
+}
+#h1-head{
+    font-family: 'Roboto Condensed';
+    font-size: 75px;
+}
+#h2-head{
+    font-family: 'Exo 2';
+    font-size: 15px;
+}
+#imglogo{
+    position: relative;
+    top: 10px;
+    left: 240px;
+    height: 500px;
+    width: 500px;
+    border-radius: 75px 85px;
+}
+.about-h1{
+    display: inline-flex;
+    justify-content: center;
+}
+.about-content{
+    margin-top: 200px ;
+}
+.about-img{
+    border-radius: 10px 60px ;
+    margin-left: 150px;
+    height: 300px;
+    width: 500px;
+}
+.about-h1{
+    font-family: 'Roboto Condensed';
+    font-weight: bolder;
+    display: flex;
+    position: relative;
+    top: -50px;
+    font-size: 55px;
+}
+.about-text{
+    position: relative;
+    top: -40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Exo 2';
+}
+.skill-section{
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.skill-head{
+    font-size: 55px;
+    font-family: 'Roboto Condensed';
+    font-weight: bolder;
+}
+.skilllogo{
+    height: 100px;
+    width: 100px;
+    
+}
+.pylogo{
+    font-size: 18px;
+    font-family: 'Exo 2';
+    font-weight: bolder;
+    transition: opacity 0.3s ease-in-out;
+}
+.logo-name{
+    margin-top: 25px;
+}
+#skill-align{
+    text-align: center;
+    margin: 24px;
+    padding: 65px;
+}
+.table-skill{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.skilllogo-java{
+    height: 100px;
+    width: 50px;
+}
+.tech-skill{
+    position: relative;
+    
+    top: 95px;
+    font-size: 18px;
+    font-family: 'Exo 2';
+    font-weight: bolder;
+}
+.img-section{
+    margin-top: 150px;
+    font-family: 'Roboto Condensed';
+    font-weight: bolder;
+    font-size: 55px;
+}
+.pylogo:hover{
+    opacity: 0.3;
+}
+.foot-bar{
+    font-family: 'Exo 2';
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-github{
+    text-decoration: none;
+    color: var(--clr-0);
+}
+.download-resume{
+    position: relative;
+    border: 2px solid var(--clr-0);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Rowdies';
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--clr-0);
+    top: 28px;
+    left: -5px;
+    transition:box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease;
+}
+.download-resume:hover{
+    background-color: var(--clr-0);
+    box-shadow: 0 0 20px var(--clr-0);
+    color: #000;
+}

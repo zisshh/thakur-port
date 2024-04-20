@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Kanit:wght@100&family=Orbitron:wght@400;500;600;700;800;900&family=Rowdies:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Rowdies:wght@300;400;700&display=swap');
+
+
+:root{
+
+    --clr-1:#9400FF;
+    --clr-0:#00E0FF;
+    --clr-2:#27005D;
+    --clr-3:#AED2FF;
+    --clr-4:#E4F1FF;
+    --clr-5:#7dcfff;
+    --clr-6:#fdb8f8;
+    --clr-7:rgb(0, 213, 255);
+    --clr-8:#222831;
+    --clr-9:#393E46;
+    --clr-10:#00ADB5;
+    --clr-11:#EEEEEE;
+}
+.card {
+    position: relative;
+    left: -250px;
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid var(--clr-0);
+    border-radius: 10px;
+    font-family: 'Exo 2';
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+.card-1 {
+    
+    position: relative;
+    left: -250px;
+    max-width: 200px;
+    height: 135px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid var(--clr-0);
+    border-radius: 10px;
+    font-family: 'Exo 2';
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .card-2{
+    position: relative;
+    left: 0px;
+    top: -420px;
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid var(--clr-0);
+    border-radius: 10px;
+    font-family: 'Exo 2';
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .card-3{
+    position: relative;
+    left: 0px;
+    top: -427px;
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid var(--clr-0);
+    border-radius: 10px;
+    font-family: 'Exo 2';
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .card-5{
+    position: relative;
+    left: 250px;
+    top: -793px;
+    height: 140px;
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid var(--clr-0);
+    border-radius: 10px;
+    font-family: 'Exo 2';
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .card-6{
+    position: relative;
+    height: 140px;
+    top: -748px;
+    left: 250px;
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid var(--clr-0);
+    border-radius: 10px;
+    font-family: 'Exo 2';
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  .card:hover{
+    background-color: #08383c;
+    box-shadow: 0px 0px 25px var(--clr-0);
+  }
+  .card-1:hover{
+    background-color: #08383c;
+    box-shadow: 0px 0px 25px var(--clr-0);
+  }
+  .card-2:hover{
+    background-color: #08383c;
+    box-shadow: 0px 0px 25px var(--clr-0);
+  }
+  .card-3:hover{
+    background-color: #08383c;
+    box-shadow: 0px 0px 25px var(--clr-0);
+  }
+  .card-5:hover{
+    background-color: #08383c;
+    box-shadow: 0px 0px 25px var(--clr-0);
+  }
+  .card-6:hover{
+    background-color: #08383c;
+    box-shadow: 0px 0px 25px var(--clr-0);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    font-size: 18px;
+    
+  }
+
+  a {
+    text-decoration: none;
+
+    color: black;
+  } 
